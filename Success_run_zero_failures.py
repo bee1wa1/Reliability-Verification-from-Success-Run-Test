@@ -227,6 +227,7 @@ with right:
         fig.update_yaxes(
             title_text="Samples n",
             showgrid=True,
+            range=[0, 500],
             title_font=dict(size=18),
             tickfont=dict(size=14)
         )
