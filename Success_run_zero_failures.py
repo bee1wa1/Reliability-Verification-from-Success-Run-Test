@@ -86,7 +86,7 @@ with st.sidebar:
     plot_h  = st.slider("Plot height (px)", 400, 1200, 700, 10)
     st.markdown("---")
     st.header("Chart options")
-    max_n   = st.slider("Max n on charts", 20, 2000, 400, 10)
+    max_n   = st.slider("Max n on charts", 20, 2000, 100, 10)
     r_range = st.slider("R range for charts", 0.80, 0.999, (0.90, 0.999))
     # Presets for parameters
     default_cls = [0.80, 0.90, 0.95, 0.99]
